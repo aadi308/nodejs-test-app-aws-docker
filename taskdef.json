@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "aadi-tdefination",
-            "image": "885300287765.dkr.ecr.us-west-1.amazonaws.com/nodejs-test:build-eeea981a-070f-4fc8-9ecf-95937da600f5",
+            "image": "<IMAGE1_NAME>" ,
             "essential": true,
             "portMappings": [
                 {
