@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:us-west-1:885300287765:task-definition"
+        LoadBalancerInfo:
+          ContainerName: "aadi-container"
+          ContainerPort: 9005
