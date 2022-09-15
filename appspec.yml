@@ -1,9 +1,5 @@
 version: 0.0
-Resources:
-  - TargetService:
-      Type: AWS::ECS::Service
-      Properties:
-        TaskDefinition: <TASK_DEFINITION>
-        LoadBalancerInfo:
-          ContainerName: "aadi-tdefination"
-          ContainerPort: 9005
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/app
